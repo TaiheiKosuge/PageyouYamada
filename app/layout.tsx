@@ -22,9 +22,9 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "山田標本ラボ - 骨格標本制作サービス",
+  title: "山田標本ラボ",
   description:
-    "科学的精度と芸術的美しさを兼ね備えた骨格標本制作サービス。教育機関、研究施設、個人コレクター向けに最高品質の標本をお作りします。",
+    "あなたの大切なペットの標本を懇切丁寧にお作りいたします。",
     generator: 'v0.dev'
 }
 

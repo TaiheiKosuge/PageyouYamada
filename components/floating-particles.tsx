@@ -50,7 +50,7 @@ export function FloatingParticles() {
 
         ctx.beginPath()
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(245, 158, 11, ${particle.opacity})`
+        ctx.fillStyle = `rgba(255, 255, 255, ${particle.opacity})`
         ctx.fill()
       })
 

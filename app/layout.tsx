@@ -23,9 +23,10 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "山田標本ラボ",
-  description:
-    "あなたの大切なペットの標本を懇切丁寧にお作りいたします。",
-    generator: 'v0.dev'
+  description:"あなたの大切なペットの標本を懇切丁寧にお作りいたします。",
+  other: {
+    "google-site-verification": "JZL-6dcv-53q1C_SKINvnlKX_OdWYxqUIorSuS_Qlo4" , 
+  },
 }
 
 export default function RootLayout({

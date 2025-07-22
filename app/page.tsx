@@ -32,11 +32,11 @@ export default function Component() {
 
   const specimenNames = [
     "サビイロカブト",
-    "リボンスネーク",
+    "コモンアミーバ",
     "ネプチューンオオカブト",
     "コクワガタ",
     "フトアゴヒゲトカゲ",
-    "ハモ"
+    "リボンスネーク"
   ];
 
   return (
@@ -190,7 +190,7 @@ export default function Component() {
               {
                 icon: Turtle,
                 title: "爬虫類標本",
-                description: "レオパやコーンスネークなどの爬虫類の標本を制作します。",
+                description: "トカゲやヘビなどの爬虫類の標本を制作します。",
                 delay: 200,
               },
               {

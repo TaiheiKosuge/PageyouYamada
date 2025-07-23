@@ -32,11 +32,11 @@ export default function Component() {
 
   const specimenNames = [
     "サビイロカブト",
-    "コモンアミーバ",
+    "リボンスネーク",
     "ネプチューンオオカブト",
     "コクワガタ",
     "フトアゴヒゲトカゲ",
-    "リボンスネーク"
+    "ハモ"
   ];
 
   return (
@@ -356,7 +356,6 @@ export default function Component() {
                 <div className="font-bold mb-2">お支払い方法</div>
                 <ul className="list-disc list-inside ml-4">
                   <li>銀行振込</li>
-                  <li>クレジットカード決済（Visa・Mastercard・JCB・Amex 対応）</li>
                 </ul>
               </div>
             </div>

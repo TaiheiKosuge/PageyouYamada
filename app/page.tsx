@@ -116,7 +116,7 @@ export default function Component() {
         />
         <div className="absolute inset-0">
           <Image
-            src="/hero-skeleton-bg.jpg"
+            src="https://cms.page-you.com/projects/yamada/hp/hero-skeleton-bg.jpg"
             alt="骨格標本の美しい展示"
             fill
             className="object-cover"
@@ -238,7 +238,7 @@ export default function Component() {
                   onClick={() => { setModalOpen(true); setModalIndex(index); }}
                 >
                   <Image
-                    src={`/gallery-specimen-${item}.jpg`}
+                    src={`https://cms.page-you.com/projects/yamada/hp/gallery-specimen-${item}.jpg`}
                     alt={`骨格標本 ${item}`}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -458,7 +458,7 @@ export default function Component() {
             </button>
             <div className="w-full max-w-2xl h-[60vh] relative mb-4 flex items-center justify-center">
               <Image
-                src={`/gallery-specimen-${modalIndex + 1}.jpg`}
+                src={`https://cms.page-you.com/projects/yamada/hp/gallery-specimen-${modalIndex + 1}.jpg`}
                 alt={specimenNames[modalIndex]}
                 fill
                 className="object-contain rounded-lg"
